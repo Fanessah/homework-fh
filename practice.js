@@ -26,3 +26,9 @@ function calcPoints (a,b) {
 
 console.log(calcPoints(10,20))
 
+//Write a function that takes an integer minutes and converts it to seconds.
+function convertMinutes (a) {
+    return ( a * 60 )
+}
+
+console.log(convertMinutes(5) + " seconds ")
